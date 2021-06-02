@@ -1,0 +1,106 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+
+body{
+    position:relative;
+}
+
+#wrapper{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    border:5px solid #87CEEB;      
+}
+
+#upperPanel{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:100px;
+}
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    background-color: #87CEEB;
+    padding: 20px;
+    color:#f36969;
+    font-size:1.4rem;
+}
+
+#chat{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:200px; 
+    background:#fff;  
+    overflow:auto;    
+}
+.message{
+    background-color:#87CEEB ;
+    width: 24%;
+    padding: 10px;
+    margin:17px 12px;
+    border:2px solid #f4c2c2;
+    border-radius: 1rem;
+}
+.left{
+    float:right;
+    clear:both;
+}
+.right{
+    background-color: #eca1a1;
+    border:2px solid #87CEEB;
+    float:left;
+    clear:both;
+}
+#friends{
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:200px;
+    right:0; 
+    background:#f4c2c2; 
+    overflow:auto;  
+    border:5px solid #eca1a1; 
+}
+
+#friends ul{
+    /* text-align:right; */
+}
+
+#bottomPanel{
+    height: 100px;
+    background:#eca1a1;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+#bottomPanel textarea{
+    position:absolute;
+    top:10px;
+    bottom:10px;
+    left:10px;
+    right:120px; 
+    width:400px;
+    resize: none;
+    background-color:#cce3ec;
+}
+
+#bottomPanel input[type=submit]{
+    position:absolute;
+    top:10px;
+    bottom:10px;
+     right:10px;
+     height:75px;
+    width:200px;
+    background-color:#87CEEB;
+}
